@@ -31,7 +31,7 @@ export function renderProducts(products, addToCartCallback) {
     <div class="product-info">
         <h2 class="product-title">${product.title}</h2>
         <p class="product-price">$${product.price}</p>
-        <a class="add-to-cart" data-id="$${product.id}" >Add to cart</a>
+        <a class="add-to-cart" data-id="${product.id}" >Add to cart</a>
     </div>
 </div>
   
